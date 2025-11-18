@@ -1,0 +1,13 @@
+file_format: "1"
+id: engram32ergo
+name: Engram32ergo
+type: shield
+url: https://github.com/rianadon/Cosmos-Keyboards
+features:
+  - keys
+  - underglow
+  - encoder
+  - studio
+siblings:
+  - engram32ergo_left
+  - engram32ergo_right

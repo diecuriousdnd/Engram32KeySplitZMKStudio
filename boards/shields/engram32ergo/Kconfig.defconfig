@@ -1,0 +1,17 @@
+
+if SHIELD_engram32ergo_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Engram32ergo"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_engram32ergo_LEFT
+
+if SHIELD_engram32ergo_LEFT || SHIELD_engram32ergo_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_engram32ergo_LEFT || SHIELD_engram32ergo_RIGHT

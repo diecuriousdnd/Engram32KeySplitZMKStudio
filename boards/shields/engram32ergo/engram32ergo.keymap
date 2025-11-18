@@ -1,0 +1,24 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <&kp B &kp Y &kp O &kp U &studio_unlock &kp D &kp W &kp V &kp SPACE &kp C &kp I &kp E &kp A &kp H &kp T &kp S &kp N &kp BACKSPACE &kp SPACE &kp G &kp X &kp J &kp K &kp R &kp M &kp F &kp P &kp Q &kp Z &kp TAB &kp SPACE &kp ENTER>;
+        };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
+    };
+};
